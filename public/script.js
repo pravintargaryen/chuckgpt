@@ -30,7 +30,7 @@ async function progressConversation() {
     chatbotConversation.scrollTop = chatbotConversation.scrollHeight
 
     // Call the backend to get AI's response
-   const response = await fetch('http://localhost:3000/ask', {
+   const response = await fetch('https://chuckgpt-1.onrender.com/ask', {
        method: 'POST',
        headers: {
            'Content-Type': 'application/json'
