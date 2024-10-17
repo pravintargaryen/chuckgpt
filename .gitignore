@@ -1,0 +1,54 @@
+# Node.js modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# Debug output
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory for testing frameworks
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Optional REPL history
+.node_repl_history
+
+# Build directory
+dist/
+build/
+
+# Package-lock and Yarn Integrity
+package-lock.json
+yarn.lock
+
+# TypeScript output
+*.tsbuildinfo
+
+# IDE or Editor settings
+.vscode/
+.idea/
+
+# Bun files (if using Bun as a runtime)
+.bun/
+
+# Miscellaneous
+*.swp
